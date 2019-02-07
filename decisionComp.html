@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+svg text {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.axis text {
+  font-size: 13px;
+}
+
+.x.axis.gridlines {
+  stroke: grey;
+  stroke-opacity: 0.05;
+}
+
+
+</style>
+<script src="//d3js.org/d3.v5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
+<body>
+  <div id = 'chartContain'>
+    <svg id='decMakComp'>
+      <defs>
+        <marker
+          id="arrow"
+          markerUnits="strokeWidth"
+          markerWidth="8"
+          markerHeight="8"
+          viewBox="0 0 12 12"
+          refX="6"
+          refY="6"
+          orient="auto">
+          <path d="M2,2 L10,6 L2,10 L6,6 L2,2" style="fill: black;"></path>
+        </marker>
+      </defs>
+    </svg>
+  </div>
+
+<script src = "./decisionComp.js"></script>
+</body>
